@@ -1,0 +1,21 @@
+{
+  "name": "js-numerals",
+  "version": "1.0.0",
+  "description": "Javascript/Frontend Programmer - Exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.6",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-jasmine": "^1.1.0"
+  }
+}

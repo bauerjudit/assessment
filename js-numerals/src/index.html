@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Let's convert numbers</title>
+	</head>
+	<script src="../node_modules/angular/angular.js"></script>
+	<script src="../node_modules/angular-mocks/angular-mocks.js"></script>
+	<script src="app.js"></script>
+	<script src="numberConverterCtrl.js"></script>
+	<body>
+		<div ng-app="numberConverter" ng-controller="numberConverterCtrl" class="form-container">
+			<form novalidate name="numberForm">
+				<h1>
+					{{ title }}
+				</h1>
+				<input type="text" ng-model="numberToConvert" required>
+				<button type="submit" ng-click="convertNumber(numberToConvert)">
+					{{ buttonTitle }}
+				</button>
+				<div>
+					{{ numberInWords }}
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
