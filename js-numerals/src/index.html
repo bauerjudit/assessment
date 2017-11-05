@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
 		<title>Let's convert numbers</title>
 	</head>
 	<script src="../node_modules/angular/angular.js"></script>
@@ -15,8 +16,8 @@
 				<h1>
 					{{ title }}
 				</h1>
-				<input type="text" ng-model="numberToConvert" required>
-				<button type="submit" ng-click="convertNumber(numberToConvert)">
+				<input type="text" class="number-input" ng-model="numberToConvert" required>
+				<button type="submit" class="convert-button" ng-click="convertNumber(numberToConvert)">
 					{{ buttonTitle }}
 				</button>
 				<div>
